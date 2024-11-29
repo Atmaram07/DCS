@@ -1,3 +1,14 @@
+function sendMail() {
+  let parms = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+  };
+
+  emailjs.send("service_1nfiahv", "template_uhg5itp", parms).then(alert("Message sent successfully"));
+}
+
 // Show the newsletter modal when the page finishes loading
 window.addEventListener("load", function () {
   var newsletterModal = new bootstrap.Modal(
@@ -22,3 +33,5 @@ dropdownButtons.forEach((button) => {
     }
   });
 });
+
+
