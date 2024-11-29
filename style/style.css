@@ -504,14 +504,14 @@ body {
 .contact-form {
   max-width: 600px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 30px !important;
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #fff;
 }
 .contact-form h2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 .contact-form .icon {
@@ -553,11 +553,6 @@ body {
 }
 
 /* Contact Form Section */
-.form-label {
-  font-weight: 500;
-  color: #333;
-}
-
 .form-control {
   border-radius: 8px;
   border: 1px solid #ced4da;
@@ -601,7 +596,7 @@ body {
     font-size: 14px;
   }
 
-  .form-label {
+  .form-control {
     font-size: 14px;
   }
 }
@@ -720,56 +715,5 @@ hr {
   .btn-link .dropdown-icon {
     float: right;
     transition: transform 0.3s;
-  }
-}
-
-/* WhatsApp Button Styling */
-.whatsapp-button {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #25d366;
-  color: white;
-  padding: 15px 25px;
-  border-radius: 30px;
-  font-weight: regular;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.whatsapp-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.4);
-  text-decoration: none;
-  color: white;
-}
-
-/* WhatsApp Icon Styling */
-.whatsapp-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-}
-
-/* Hide text on mobile */
-@media (max-width: 768px) {
-  .whatsapp-text {
-    display: none;
-  }
-
-  .whatsapp-button {
-    padding: 10px;
-    border-radius: 50%;
-  }
-
-  .whatsapp-icon {
-    margin-right: 0;
-    width: 30px;
-    height: 30px;
   }
 }
