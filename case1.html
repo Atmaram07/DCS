@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RPXVZVX574"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RPXVZVX574"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -9,366 +11,514 @@
 
   gtag('config', 'G-RPXVZVX574');
 </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DCS - Case Study 1</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/About.css">
-    <link rel="stylesheet" href="style/case-studies.css">
-    <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+  <title>Case Study 1</title>
+  <!-- Bootstrap CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-
-<!-- Calendly link widget end -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "HVFqxGIo1ROgxyVBc",
-        });
-      })();
-    </script>
-    <script src="script/script.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/style/About.css" />
+  
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-      <div class="container-fluid">
-        <!-- Brand Logo -->
-        <a class="navbar-brand" href="/index.html">
-          <img src="./assets/logo.png" alt="Logo" />
-        </a>
-        <!-- Toggler for mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar Links -->
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="components/About.html">About</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+      <!-- Brand Logo -->
+      <a class="navbar-brand" href="/index.html">
+        <img src="/assets/logo.png" alt="Logo">
+      </a>
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/components/About.html">About</a>
+          </li>
+          <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li class="dropdown-item">
+                <strong>Development Services →</strong>
+              </li>
+              <li><a class="dropdown-item" href="/components/AI.html">Artificial Intelligence</a></li>
+              <li><a class="dropdown-item" href="/components/Software Development.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="/components/Software Development.html">App Development</a></li>
+              <li><a class="dropdown-item" href="/components/Cybersecurity.html">Cybersecurity</a></li>
+              <li><a class="dropdown-item" href="/components/Cloud Services.html">Cloud Services</a></li>
+              <!-- <li class="dropdown-item">
+                <strong>Consulting Services →</strong>
+              </li>
+              <li><a class="dropdown-item" href="#">IT Consulting</a></li>
+              <li><a class="dropdown-item" href="#">Business Strategy</a></li> -->
+            </ul>
+          </li>
+          <!-- Pricing Dropdown -->
+          <!-- <li class="nav-item dropdown">
+            <a href="#" class="nav-link">Pricing</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="/case-study.html">Case Studies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Get In Touch Button -->
+      <div class="d-none d-lg-block">
+        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dodongconsultancy/30min'});return false;" class="btn-primary get-in-touch-btn">Get In Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-3">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="/case-study.html">Case Study</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="case1.html">Elevating Retail Excellence through Omnichannel Transformation</a></li>
+        
+      </ol>
+    </nav>
+    <section class="hero-section mb-4">
+      <div class="d-flex align-items-center justify-content-between text-section">
+        <div class="text-content col-md-9 col-lg-9">
+          <h1>Elevating Retail Excellence through Omnichannel Transformation</h1>
+          <br>
+          <p class="description">
+How Dodong Consultancy Services Empowered a Leading Retailer to Seamlessly Integrate Offline & Online Channels, Boost Customer Engagement, and Maximize Revenue          </p>
+          </p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="image-content">
+          <img src="/assets/AI-hero.jpg" alt="About Us Image" class="about-us-img" />
+        </div>
+      </div>
+    </section>
+
+    <div class="sidebar-container-fluid">
+      <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-lg-2 col-md-3 sidebar p-3">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item active">
+              <a href="#1">Client Profile          </a>
             </li>
-            <!-- Services Dropdown -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="servicesDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li class="dropdown-item">
-                  <strong>Development Services →</strong>
-                </li>
-                <li><a class="dropdown-item" href="/components/AI.html">Artificial Intelligence</a></li>
-                <li><a class="dropdown-item" href="/components/Software Development.html">Web Development</a></li>
-                <li><a class="dropdown-item" href="/components/Software Development.html">App Development</a></li>
-                <li class="dropdown-item" href="/components/Cybersecurity.html">Cybersecurity</li>
-                <li><a class="dropdown-item" href="/components/Cloud Services.html">Cloud Services</a></li>
-                <!-- <li class="dropdown-item">
-                  <strong>Consulting Services →</strong>
-                </li>
-                <li><a class="dropdown-item" href="#">IT Consulting</a></li>
-                <li><a class="dropdown-item" href="#">Business Strategy</a></li> -->
-              </ul>
+            <li class="list-group-item active">
+              <a href="#2">Executive Summary
+            </a>
             </li>
-           
-            <li class="nav-item">
-              <a class="nav-link" href="./case-study.html">Case Studies</a>
+            <li class="list-group-item">
+              <a href="#3">Challenges
+            </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+            <li class="list-group-item">
+              <a href="#4">DCS Solution: RETAIL-FUSION™ Framework</a>
             </li>
+            <li class="list-group-item">
+              <a href="#5">Implementation Highlights</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#6">Results & Impact</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#7">Client Testimonial</a>
+            </li>
+            <li class="list-group-item">  
+              <a href="#8">Why Choose Dodong Consultancy Services?</a>
+            </li>
+            
+          </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="col-lg-10 col-md-9 p-3">
+          <!-- Content Section -->
+           <div class="content-section">
+            <h1 id="1">Client Profile</h1>
+         
+            <li><strong>Industry:</strong> Retail (Omnichannel – Offline & Online)</li>
+      <li><strong>Geography:</strong> India & Middle East</li>
+      <li><strong>Client Type:</strong> National retail chain with over 350 physical stores and a growing e-commerce platform</li>
+      <li><strong>Engagement Duration:</strong> 16 Months</li>
+      <li><strong>Engagement Scope:</strong> Digital transformation, supply chain integration, customer experience, analytics, and marketing automation</li>
+           </div>
+          <div class="content-section">
+            <h1 id="2">Executive Summary   </h1>
+           <p>The modern retail landscape demands flawless integration between physical stores and online platforms to deliver consistent, personalized, and frictionless customer experiences.</p>
+    <p>Our client, a well-established retail chain, grappled with disconnected offline and online operations, resulting in suboptimal inventory management, inconsistent customer experiences, and missed revenue opportunities.</p>
+    <p>Dodong Consultancy Services (DCS) was engaged to architect and implement a robust <strong>RETAIL-FUSION™ Framework</strong>—a holistic omnichannel strategy that harmonizes inventory, customer data, and marketing efforts across all channels.</p>
+    <p>Within 16 months, the client experienced substantial improvements in sales growth, customer retention, inventory turnover, and operational efficiency, cementing their leadership in the competitive retail market.</p>
+
+            <!-- Video or Image Placeholder -->
+          
+          </div>
+
+            <div class="content-section">
+             <h1 id="3">Challenges </h1>
+
+             <table style="border-collapse: collapse; width: 100%;">
+          <thead>
+          <tr>
+            <th style="border: 1px solid #ccc; padding: 8px;">Challenge</th>
+            <th style="border: 1px solid #ccc; padding: 8px;">Description</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Channel Silos & Disjointed Data</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">Offline and online channels operated independently, causing inconsistent product availability and customer profiles.</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Inventory Management Inefficiencies</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">Overstocking and stockouts due to poor visibility across physical and digital inventory.</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Fragmented Customer Experience</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">Customers received inconsistent messaging and promotions across channels, leading to reduced loyalty.</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Limited Real-Time Analytics</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">Inability to track cross-channel customer journeys and sales performance in real-time.</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Manual Marketing & Loyalty Management</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">Campaigns and loyalty programs were managed in silos with low personalization and ROI.</td>
+          </tr>
+          </tbody>
+        </table>
+            
+          </div>
+          <div class="content-section">
+    <h2 id="4">DCS Solution: RETAIL-FUSION™ Framework</h2>
+    <p>Dodong Consultancy Services deployed the RETAIL-FUSION™ Framework, focusing on five critical pillars:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Pillar</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1. Unified Commerce Platform</td>
+          <td>Integrated POS, e-commerce, and ERP systems for seamless inventory, order, and customer management.</td>
+        </tr>
+        <tr>
+          <td>2. Real-Time Inventory Visibility</td>
+          <td>Implemented centralized inventory management with IoT-enabled tracking across warehouses and stores.</td>
+        </tr>
+        <tr>
+          <td>3. Customer 360° Profile & Personalization</td>
+          <td>Created unified customer profiles integrating offline and online behavior to deliver personalized marketing.</td>
+        </tr>
+        <tr>
+          <td>4. Marketing Automation & Loyalty Optimization</td>
+          <td>Deployed AI-driven campaign automation and loyalty programs, optimizing engagement and ROI.</td>
+        </tr>
+        <tr>
+          <td>5. Advanced Analytics & Reporting</td>
+          <td>Real-time dashboards for sales, inventory, and customer analytics to enable data-driven decision-making.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="content-section">
+    <h2 id="5">Implementation Highlights</h2>
+    <ul>
+      <li><strong>Systems Integration:</strong> Connected over 350 stores and e-commerce platform using cloud-based middleware; ensured real-time sync of orders and inventory.</li>
+      <li><strong>IoT & RFID Deployment:</strong> Installed IoT sensors and RFID tags for end-to-end inventory tracking, reducing stock discrepancies by 90%.</li>
+      <li><strong>Personalization Engine:</strong> Developed AI-based recommendation engine influencing 30% of online sales and personalized in-store offers via mobile apps.</li>
+      <li><strong>Marketing & Loyalty Automation:</strong> Integrated CRM with marketing automation tools enabling segmented campaigns with 5x higher engagement rates.</li>
+      <li><strong>Analytics & BI:</strong> Built Power BI dashboards providing unified insights across channels accessible to key stakeholders.</li>
+    </ul>
+  </div>
+
+  <!-- Results & Impact -->
+  <div class="content-section">
+    <h2 id="6">Results & Impact</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Key Metric</th>
+          <th>Before DCS Engagement</th>
+          <th>After 16 Months</th>
+          <th>Improvement</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Omnichannel Sales Revenue</td>
+          <td>$120 Million</td>
+          <td>$285 Million</td>
+          <td>+137%</td>
+        </tr>
+        <tr>
+          <td>Customer Retention Rate</td>
+          <td>42%</td>
+          <td>73%</td>
+          <td>+74%</td>
+        </tr>
+        <tr>
+          <td>Inventory Turnover Ratio</td>
+          <td>3.5</td>
+          <td>6.8</td>
+          <td>+94%</td>
+        </tr>
+        <tr>
+          <td>Stockouts & Overstock Incidents</td>
+          <td>High</td>
+          <td>Reduced by 88%</td>
+          <td>Significant operational efficiency</td>
+        </tr>
+        <tr>
+          <td>Marketing Campaign ROI</td>
+          <td>1.7x</td>
+          <td>5.8x</td>
+          <td>+241%</td>
+        </tr>
+        <tr>
+          <td>Customer Satisfaction Score (CSAT)</td>
+          <td>65/100</td>
+          <td>91/100</td>
+          <td>+40%</td>
+        </tr>
+        <tr>
+          <td>Average Order Value (AOV)</td>
+          <td>$45</td>
+          <td>$67</td>
+          <td>+49%</td>
+        </tr>
+        <tr>
+          <td>Platform Uptime</td>
+          <td>93%</td>
+          <td>99.9%</td>
+          <td>+6.9%</td>
+        </tr>
+        <tr>
+          <td>Return on Investment (ROI)</td>
+          <td>N/A</td>
+          <td>12.3x</td>
+          <td>Exceptional financial impact</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Testimonial -->
+  <div class="content-section">
+    <h2 id="7">Client Testimonial</h2>
+    <blockquote>
+      “Dodong Consultancy Services’ RETAIL-FUSION™ Framework fundamentally transformed our business. By bridging offline and online channels, they empowered us to deliver exceptional customer experiences while optimizing operations and growth.”
+      <footer>— Chief Digital Officer, Confidential National Retail Chain</footer>
+    </blockquote>
+  </div>
+
+  <!-- Why Choose -->
+  <div class="content-section">
+    <h2 id="8">Why Choose Dodong Consultancy Services?</h2>
+    <ul>
+      <li>Deep expertise in retail industry dynamics and omnichannel strategies</li>
+      <li>Proven frameworks driving measurable business outcomes</li>
+      <li>Cutting-edge technology integration (IoT, AI, cloud) with minimal disruption</li>
+      <li>End-to-end project management ensuring timely delivery and ROI</li>
+      <li>Commitment to data privacy, security, and regulatory compliance</li>
+    </ul>
+  </div>
+<div class="content-section">
+    <h2>Legal Disclaimer</h2>
+    <p>This case study is a composite representation based on Dodong Consultancy Services’ work with clients in the Retail and Omnichannel sectors. Client names are withheld to ensure confidentiality and compliance with legal and contractual obligations. Data and results accurately reflect DCS’s capabilities and impact.</p>
+  </div>
+
+
+    
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container my-5" id="contact">
+    <div class="contact-container rounded shadow-sm p-5">
+      <div class="row g-4 align-items-center">
+        <!-- Contact Information on the Left -->
+        <div class="col-md-6">
+          <h2 class="contact-info-title">Ready to Transform Your Business?
+        </h2>
+          <p class="contact-info-description">
+            Partner with DCS to harness the full potential of AI and drive your business forward. Contact us today to schedule a consultation and explore how our AI solutions can be tailored to meet your unique needs.
+
+          </p>
+          <ul class="contact-details list-unstyled mt-4">
+            <li><strong>Address:</strong> A/10, Ashok Nagar,Bhubaneswar,Odisha,India</li>
+            <li>
+              <strong>Email:</strong> dodongconsultancy@gmail.com
+            </li>
+            <li><strong>Phone:</strong> +91-7077981777</li>
           </ul>
         </div>
-        <!-- Get In Touch Button -->
-        <div class="d-none d-lg-block">
-          <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dodongconsultancy/30min'});return false;" class="btn-primary get-in-touch-btn">Get In Touch</a>
-        
-        </div>
+        <div class="col-md-6">
+          <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/dodongconsultancy/30min?hide_event_type_details=1" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
       </div>
-    </nav>
 
-    <header class="hero-section">
-        <div class="container">
-            <h1>Success Story: Dodong Premium Subscription</h1>
-            <p class="subtitle">Driving Local Business Growth with Innovative Pricing</p>
-        </div>
-    </header>
-
-    <main class="container py-5">
-          <div class="row">
-            <div class="col-lg-8">
-            <article class="case-study">
-            <section class="mb-5 text-center">
-                <h2 class="display-5 fw-bold mb-3">Introduction</h2>
-                <p class="lead">Dodong Premium empowers local shops to expand their reach and build customer loyalty through a transparent, feature-rich subscription service.</p>
-            </section>
-
-            <section class="row align-items-center mb-5">
-                <div class="col-md-6">
-                    <h2 class="h4 fw-semibold">Subscription Details</h2>
-                    <p class="fs-5"><strong>Annual Fee: $199</strong></p>
-                    <p>One simple payment unlocks a full year of premium benefits.</p>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="assets/subscription.svg" alt="Subscription" class="img-fluid" style="max-height:120px;">
-                </div>
-            </section>
-
-            <section class="mb-5">
-                <h2 class="h4 fw-semibold">Key Benefits</h2>
-                <div class="row g-4">
-                    <div class="col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="fa fa-arrow-up fa-2x text-primary mb-2"></i>
-                                <h5 class="card-title">Top Search Ranking</h5>
-                                <p class="card-text">Appear at the forefront of Dodong’s listings for maximum exposure.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="fa fa-bullhorn fa-2x text-success mb-2"></i>
-                                <h5 class="card-title">Marketing Suite</h5>
-                                <p class="card-text">Access advanced tools to create and manage promotions.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="fa fa-chart-line fa-2x text-warning mb-2"></i>
-                                <h5 class="card-title">Data Insights</h5>
-                                <p class="card-text">Analyze customer trends and optimize operations.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6"></div>
-                        <div class="card h-100 border-0 shadow-sm">
-                            <div class="card-body">
-                                <i class="fa fa-boxes-stacked fa-2x text-info mb-2"></i>
-                                <h5 class="card-title">Smart Inventory</h5>
-                                <p class="card-text">Streamline stock management with intuitive features.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="row mb-5">
-                <div class="col-md-6">
-                    <h2 class="h4 fw-semibold">Discounts & Loyalty Rewards</h2>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent">Provide members-only deals to attract and retain shoppers.</li>
-                        <li class="list-group-item bg-transparent">Encourage repeat visits with a built-in loyalty program.</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="h4 fw-semibold">Verified Status</h2>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent"><strong>Build Trust:</strong> Display a verified badge to reassure customers.</li>
-                        <li class="list-group-item bg-transparent"><strong>Stand Out:</strong> Differentiate your business with official recognition.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="row mb-5">
-                <div class="col-md-6">
-                    <h2 class="h4 fw-semibold">Ongoing Support</h2>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent">Enjoy dedicated customer service and expert guidance.</li>
-                        <li class="list-group-item bg-transparent">No hidden fees—renewal price remains consistent each year.</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="h4 fw-semibold">Risk-Free Trial</h2>
-                    <p>Try Dodong Premium for 30 days. If you’re not satisfied, receive a full refund—guaranteed.</p>
-                </div>
-            </section>
-
-            <section class="mb-4">
-                <h2 class="h4 fw-semibold">Terms & Conditions</h2>
-                <p>Subscription terms may be updated with advance notice. By subscribing, you agree to our latest policies and privacy terms.</p>
-            </section>
-
-            <section class="text-center">
-                <h2 class="h4 fw-semibold">Summary</h2>
-                <p class="lead">With Dodong Premium, local businesses gain essential tools for success, transparent pricing, and reliable support—fueling sustainable growth and customer satisfaction.</p>
-            </section>
-        </article>
-          </div> 
-         <!-- Suggested Blogs Sidebar -->
-    <div class="col-lg-4">
-      <aside class="sticky-top" style="top: 100px;">
-        <div class="card shadow-sm border-0">
-          <div class="card-body">
-            <h5 class="fw-bold mb-3">Related Case Studies</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="case-study-2.html" class="text-decoration-none text-dark">🔹 Case Study 2: AI Integration</a></li>
-              <li class="mb-2"><a href="case-study-3.html" class="text-decoration-none text-dark">🔹 Case Study 3: Cloud Migration</a></li>
-              <li class="mb-2"><a href="case-study-4.html" class="text-decoration-none text-dark">🔹 Case Study 4: Cybersecurity Upgrade</a></li>
-              <li class="mb-2"><a href="case-study-5.html" class="text-decoration-none text-dark">🔹 Case Study 5: Web Revamp</a></li>
-              <li class="mb-2"><a href="case-study-6.html" class="text-decoration-none text-dark">🔹 Case Study 6: App Optimization</a></li>
-              <li class="mb-2"><a href="case-study-7.html" class="text-decoration-none text-dark">🔹 Case Study 7: CRM Automation</a></li>
-              <li class="mb-2"><a href="case-study-8.html" class="text-decoration-none text-dark">🔹 Case Study 8: SEO Success</a></li>
-              <li class="mb-2"><a href="case-study-9.html" class="text-decoration-none text-dark">🔹 Case Study 9: E-commerce Growth</a></li>
-              <li class="mb-2"><a href="case-study-10.html" class="text-decoration-none text-dark">🔹 Case Study 10: Data Science Workflow</a></li>
-              <li class="mb-2"><a href="case-study-11.html" class="text-decoration-none text-dark">🔹 Case Study 11: Legacy System Upgrade</a></li>
-            </ul>
-          </div>
-        </div>
-      </aside>
+       
+      </div>
     </div>
-</row>
-    </main>
+  </div>
 
-   <footer class="footer bg-dark text-light py-5">
-      <div class="container">
-        <div class="row align-items-center mb-4">
-          <!-- Logo -->
-          <div class="col-md-6 mb-4 mb-md-0">
-            <a href="/index.html"
-              ><img
-                src="/assets/logo.png"
-                alt="DCS Logo"
-                class="footer-logo mb-3"
-            /></a>
-          </div>
-        </div>
-
-        <hr class="text-secondary" />
-
-        <div class="row">
-          <!-- Column 1: Discover -->
-          <div class="col-md-4 mb-3">
-            <h6 class="d-md-block d-none">Discover</h6>
-            <div
-              class="btn-link d-md-none text-light w-100 text-start"
-              data-bs-toggle="collapse"
-              data-bs-target="#discoverSection"
-              aria-expanded="false"
-            >
-              Discover <i class="fa-solid fa-angle-down dropdown-icon"></i>
-            </div>
-            <div
-              class="collapse d-md-block bordered-collapse"
-              id="discoverSection"
-            >
-              <ul class="list-unstyled">
-                <li><a href="/components/About.html">About us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#success-stories">Case Studies</a></li>
-
-              </ul>
-            </div>
-          </div>
-
-          <!-- Column 2: Learn About -->
-          <div class="col-md-4 mb-3">
-            <h6 class="d-md-block d-none">Learn about</h6>
-            <div
-              class="btn-link d-md-none text-light w-100 text-start"
-              data-bs-toggle="collapse"
-              data-bs-target="#learnAboutSection"
-              aria-expanded="false"
-            >
-              Learn about <i class="fa-solid fa-angle-down dropdown-icon"></i>
-            </div>
-            <div
-              class="collapse d-md-block bordered-collapse"
-              id="learnAboutSection"
-            >
-              <ul class="list-unstyled">
-                <li><a href="/components/AI.html">Artificial intelligence</a></li>
-                <li><a href="/components/Software Development.html">Software Development</a></li>
-                <li><a href="/components/Cybersecurity.html">Cybersecurity</a></li>
-                <li><a href="/components/Cloud Services.html">Cloud Services</a></li>
-                
-              </ul>
-            </div>
-          </div>
-
-          <!-- Column 4: About DCS -->
-          <div class="col-md-4 mb-3">
-            <h6 class="d-md-block d-none">About DCS</h6>
-            <div
-              class="btn-link d-md-none text-light w-100 text-start"
-              data-bs-toggle="collapse"
-              data-bs-target="#aboutDCSSection"
-              aria-expanded="false"
-            >
-              About DCS <i class="fa-solid fa-angle-down dropdown-icon"></i>
-            </div>
-            <div
-              class="collapse d-md-block bordered-collapse"
-              id="aboutDCSSection"
-            >
-              <ul class="list-unstyled">
-                <li><a href="/components/About.html">About DCS</a></li>
-                <li><a href="/components/About.html#our_mission">Mission & Vision</a></li>
-                <li><a href="/components/About.html#our_team">Our Team</a></li>
-                <li><a href="#success-stories">Client Testimonials</a></li>
-                
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Footer Bottom Links -->
-         <hr class="text-secondary my-4" /> 
-        <div class="row">
-          <div class="col-md-4 text-start">
-            <ul class="list-unstyled">
-              <li><a href="/Terms and Condition.html">Terms & Conditions</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 text-start">
-            <ul class="list-unstyled">
-              <li><a href="/Privacy Policy.html">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 text-start">
-            <ul class="list-unstyled">
-              <li><a href="/Cookie Policy.html">Cookie Policy</a></li>
-            </ul>
-          </div>
-        
-        </div> 
+  
+<!-- Footer Section -->
+ <!-- Footer Section -->
+ <footer class="footer bg-dark text-light py-5">
+  <div class="container">
+    <div class="row align-items-center mb-4">
+      <!-- Logo -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <a href="/index.html"
+          ><img
+            src="/assets/logo.png"
+            alt="DCS Logo"
+            class="footer-logo mb-3"
+        /></a>
       </div>
-    </footer>
+    </div>
 
+    <hr class="text-secondary" />
+
+    <div class="row">
+      <!-- Column 1: Discover -->
+      <div class="col-md-4 mb-3">
+        <h6 class="d-md-block d-none">Discover</h6>
+        <div
+          class="btn-link d-md-none text-light w-100 text-start"
+          data-bs-toggle="collapse"
+          data-bs-target="#discoverSection"
+          aria-expanded="false"
+        >
+          Discover <i class="fa-solid fa-angle-down dropdown-icon"></i>
+        </div>
+        <div
+          class="collapse d-md-block bordered-collapse"
+          id="discoverSection"
+        >
+          <ul class="list-unstyled">
+            <li><a href="/components/About.html">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="/case-study.html">Case Studies</a></li>
+
+          </ul>
+        </div>
+      </div>
+
+      <!-- Column 2: Learn About -->
+      <div class="col-md-4 mb-3">
+        <h6 class="d-md-block d-none">Learn about</h6>
+        <div
+          class="btn-link d-md-none text-light w-100 text-start"
+          data-bs-toggle="collapse"
+          data-bs-target="#learnAboutSection"
+          aria-expanded="false"
+        >
+          Learn about <i class="fa-solid fa-angle-down dropdown-icon"></i>
+        </div>
+        <div
+          class="collapse d-md-block bordered-collapse"
+          id="learnAboutSection"
+        >
+          <ul class="list-unstyled">
+            <li><a href="/components/AI.html">Artificial intelligence</a></li>
+            <li><a href="/components/Software Development.html">Software Development</a></li>
+            <li><a href="/components/Cybersecurity.html">Cybersecurity</a></li>
+            <li><a href="/components/Cloud Services.html">Cloud Services</a></li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <!-- Column 4: About DCS -->
+      <div class="col-md-4 mb-3">
+        <h6 class="d-md-block d-none">About DCS</h6>
+        <div
+          class="btn-link d-md-none text-light w-100 text-start"
+          data-bs-toggle="collapse"
+          data-bs-target="#aboutDCSSection"
+          aria-expanded="false"
+        >
+          About DCS <i class="fa-solid fa-angle-down dropdown-icon"></i>
+        </div>
+        <div
+          class="collapse d-md-block bordered-collapse"
+          id="aboutDCSSection"
+        >
+          <ul class="list-unstyled">
+            <li><a href="/components/About.html">About DCS</a></li>
+            <li><a href="/components/About.html#our_mission">Mission & Vision</a></li>
+            <li><a href="/components/About.html#our_team">Our Team</a></li>
+            <li><a href="#success-stories">Client Testimonials</a></li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Links -->
+     <hr class="text-secondary my-4" /> 
+    <div class="row">
+      <div class="col-md-4 text-start">
+        <ul class="list-unstyled">
+          <li><a href="/Terms and Condition.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-start">
+        <ul class="list-unstyled">
+          <li><a href="/Privacy Policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-start">
+        <ul class="list-unstyled">
+          <li><a href="/Cookie Policy.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+    
+    </div> 
+  </div>
+</footer>
+
+
+  <!-- JavaScript Bundle -->
+  <script src="/script/About.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script/script.js"></script>
 </body>
+
 </html>
