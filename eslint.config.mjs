@@ -4,16 +4,13 @@ import tsPlugin from "@typescript-eslint/eslint-plugin";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
 import { defineConfig } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
+import nextVitals from "eslint-config-next/core-web-vitals.js";
 
 export default defineConfig([
-  ...nextVitals,
-]);
-
-export default [
   {
     ignores: [".next/**", "node_modules/**", "next-env.d.ts"],
   },
+  ...nextVitals,
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
     languageOptions: {
@@ -47,4 +44,4 @@ export default [
       "react/react-in-jsx-scope": "off",
     },
   },
-];
+]);
