@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, Search, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 
 import { ButtonLink } from "@/components/ui/button-link";
 import { Container } from "@/components/ui/container";
@@ -30,11 +31,16 @@ export function SiteHeader() {
         <div className="relative px-1 sm:px-2">
           <div className="flex items-center justify-between gap-4 py-3">
             <Link href="/" className="group flex items-center gap-3">
-              <img
-                src="/logoDCS.png"
-                alt="DCS logo"
-                className="h-20 w-20 object-cover transition duration-300"
-              />
+             
+
+<Image
+  src="/logo.png"
+  alt="Logo"
+  width={180}
+  height={60}
+  priority
+/>
+            
               <div>
                 <p className="font-heading text-sm font-semibold tracking-[0.14em] text-slate-950">{company.name}</p>
                 <p className="text-xs text-slate-500">Strategy. Technology. Execution.</p>
