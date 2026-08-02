@@ -34,7 +34,7 @@ export function SiteHeader() {
              
 
 <Image
-  src="./public/logoDCS.png"
+  src="/logoDCS.png"
   alt="Logo"
   width={180}
   height={60}
