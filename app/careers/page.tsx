@@ -8,7 +8,7 @@ import { openRoles } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Explore consulting career opportunities at Dodong Consultancy Services.",
+  description: "Explore consulting and delivery career opportunities with DCS | Management & Technology Consulting.",
 };
 
 export default function CareersPage() {
@@ -16,8 +16,8 @@ export default function CareersPage() {
     <>
       <PageHero
         eyebrow="Careers"
-        title="Join a team that values rigor, curiosity, and practical impact."
-        description="We are building a consulting environment where thoughtful problem-solving, collaboration, and execution discipline matter as much as presentation polish."
+        title="Build meaningful work with teams that care about outcomes."
+        description="We are building a consulting environment where thoughtful problem-solving, collaboration, and execution discipline matter as much as strategic clarity."
         primaryCta={{ label: "Contact Recruiting", href: "/contact" }}
       />
       <section className="bg-white py-20 sm:py-24 lg:py-28">

@@ -10,7 +10,7 @@ import { insights } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Insights",
-  description: "Read original articles from Dodong Consultancy Services on transformation, operating model design, technology, and enterprise execution.",
+  description: "Read DCS insights on digital growth, technology strategy, healthcare systems, utility modernization, and operational transformation.",
 };
 
 export default function InsightsPage() {
@@ -18,8 +18,8 @@ export default function InsightsPage() {
     <>
       <PageHero
         eyebrow="Insights"
-        title="Perspectives for leaders building resilient, modern organizations."
-        description="We publish original thinking on enterprise transformation, technology change, operating design, and the management disciplines that support long-term performance."
+        title="Practical perspectives for leaders shaping resilient, modern organizations."
+        description="We publish original thinking on growth strategy, digital transformation, AI adoption, operating design, and the disciplines that support long-term performance."
         primaryCta={{ label: "Contact Our Advisors", href: "/contact" }}
       />
       <section className="bg-white py-20 sm:py-24 lg:py-28">

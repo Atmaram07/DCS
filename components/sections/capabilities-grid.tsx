@@ -9,9 +9,9 @@ export function CapabilitiesGrid() {
   return (
     <section className="bg-white py-16 sm:py-20">
       <SectionHeading
-        eyebrow="Capabilities"
+        eyebrow="Our Capabilities"
         title="The delivery disciplines that connect business priorities to practical execution."
-        description="Our work spans strategic advisory, platform delivery, operational modernization, and secure technology enablement so clients can move from vision to measurable momentum."
+        description="Our work spans growth consulting, technology engineering, AI automation, and cloud security so clients can move from strategy to measurable momentum."
       />
       <Container>
         <div className="grid gap-0 border-y border-slate-200 md:grid-cols-2 xl:grid-cols-4">

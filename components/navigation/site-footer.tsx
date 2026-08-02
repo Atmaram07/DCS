@@ -9,13 +9,12 @@ export function SiteFooter() {
       <Container className="py-16 sm:py-20">
         <div className="grid gap-14 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
           <div className="max-w-xl">
-            
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">Dodong Consultancy Services</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">{company.name}</p>
             <h2 className="mt-5 font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
-              Advisory built for leaders who need progress, not presentation decks.
+              Creating Sustainable Business Growth
             </h2>
             <p className="mt-5 max-w-lg text-sm leading-7 text-slate-300 sm:text-base">
-              We partner with executive teams across strategy, transformation, operations, and technology to move complex agendas forward.
+              We partner with ambitious organizations to solve growth, technology, and transformation challenges through consulting, engineering, AI, and disciplined execution.
             </p>
           </div>
 

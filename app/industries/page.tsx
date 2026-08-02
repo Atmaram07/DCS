@@ -6,7 +6,7 @@ import { PageHero } from "@/components/sections/page-hero";
 
 export const metadata: Metadata = {
   title: "Industries",
-  description: "See how Dodong Consultancy Services works across healthcare, manufacturing, retail, finance, government, infrastructure, and more.",
+  description: "See how DCS supports healthcare, real estate, manufacturing, hospitality, education, professional services, retail, and emerging businesses.",
 };
 
 export default function IndustriesPage() {
@@ -14,8 +14,8 @@ export default function IndustriesPage() {
     <>
       <PageHero
         eyebrow="Industries"
-        title="Sector-specific context for leaders facing real operating complexity."
-        description="We adapt strategy, modernization, and performance programs to the economic, regulatory, and organizational realities of each industry."
+        title="Creating impact across growth-focused sectors."
+        description="From healthcare and hospitals to real estate, manufacturing, hospitality, education, professional services, retail, and startups, DCS helps organizations align strategy, technology and execution with sector realities."
         primaryCta={{ label: "Discuss Your Sector", href: "/contact" }}
         secondaryCta={{ label: "Read Our Insights", href: "/insights" }}
       />

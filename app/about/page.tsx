@@ -10,7 +10,7 @@ import { principles } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Dodong Consultancy Services, our consulting philosophy, and how we help organizations transform with clarity and execution discipline.",
+  description: "Learn about DCS | Management & Technology Consulting, our consulting philosophy, and how we help organizations achieve sustainable growth through strategy, technology, and execution.",
 };
 
 export default function AboutPage() {

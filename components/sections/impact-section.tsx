@@ -33,9 +33,9 @@ export function ImpactSection() {
   return (
     <section className="bg-brand-secondary py-20 text-white sm:py-24 lg:py-28">
       <SectionHeading
-        eyebrow="Global Impact"
-        title="Experienced across industries, geographies, and transformation contexts."
-        description="We help organizations move forward with conviction, whether the challenge is enterprise-wide change or a focused performance agenda."
+        eyebrow="Impact & Experience"
+        title="Creating Sustainable Business Growth Across Industries"
+        description="We help organizations move forward with conviction through strategy, technology, and operational execution designed for long-term growth."
         inverted
       />
       <Container>

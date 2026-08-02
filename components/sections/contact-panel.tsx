@@ -10,9 +10,9 @@ export function ContactPanel() {
       <Container>
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <Reveal className="rounded-[36px] border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">Get in touch</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-accent">Start the conversation</p>
             <h2 className="mt-5 font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
-              Ready to transform your business with DCS?
+              Ready to explore what&apos;s possible?
             </h2>
             <div className="mt-8 space-y-5 text-sm text-slate-300">
               <div className="flex items-start gap-3">

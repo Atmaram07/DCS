@@ -14,9 +14,9 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Contact"
-        title="Tell us where your organization needs clarity, speed, or resilience."
-        description="Whether you are preparing a digital transformation roadmap, improving customer experience, or strengthening systems security, our team can help you turn the next decision into a practical plan."
+        eyebrow="Strategic Consultation"
+        title="Every engagement begins with understanding the business."
+        description="During the consultation, we discuss business goals, growth opportunities, customer acquisition challenges, technology roadmap, operational efficiency, and digital transformation priorities."
       />
       <section className="bg-brand-canvas py-20 sm:py-24 lg:py-28">
         <Container className="max-w-5xl">

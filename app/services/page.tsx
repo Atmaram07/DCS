@@ -7,7 +7,7 @@ import { ServicePillars } from "@/components/sections/service-pillars";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Explore strategy, digital transformation, technology consulting, operations, AI, risk, and training services from Dodong Consultancy Services.",
+  description: "Explore growth consulting, technology engineering, AI automation, and cloud security services from DCS | Management & Technology Consulting.",
 };
 
 export default function ServicesPage() {
@@ -15,15 +15,15 @@ export default function ServicesPage() {
     <>
       <PageHero
         eyebrow="Services"
-        title="Consulting capabilities designed to connect ambition with execution."
-        description="From transformation strategy to AI adoption and operational redesign, DCS helps organizations address complex priorities with discipline and speed."
+        title="Solutions built to help organizations grow, modernize, and execute with confidence."
+        description="From customer acquisition and digital growth to software engineering, cloud infrastructure, AI automation and cyber security, DCS helps organizations build sustainable competitive advantage in an increasingly digital world."
         primaryCta={{ label: "Contact Our Team", href: "/contact" }}
         secondaryCta={{ label: "View Case Studies", href: "/case-studies" }}
         aside={
           <div className="rounded-[36px] border border-slate-200 bg-white p-8 shadow-soft">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-brand-primary">Our approach</p>
             <p className="mt-5 text-base leading-8 text-slate-600">
-              We build each engagement around the decisions leadership must make, the capabilities teams need, and the operating changes required for outcomes to stick.
+              We build each engagement around the business goals, technology roadmap, and operating changes needed to create measurable impact.
             </p>
           </div>
         }

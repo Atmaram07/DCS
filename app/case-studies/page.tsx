@@ -10,7 +10,7 @@ import { caseStudies } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Case Studies",
-  description: "Review transformation, operations, and technology case studies from Dodong Consultancy Services.",
+  description: "Review selected DCS case studies covering healthcare growth, real estate, consumer brands, and technology innovation outcomes.",
 };
 
 export default function CaseStudiesPage() {
@@ -18,8 +18,8 @@ export default function CaseStudiesPage() {
     <>
       <PageHero
         eyebrow="Case Studies"
-        title="Examples of consulting work designed to hold up beyond the kickoff phase."
-        description="Our case studies highlight how we help organizations align leadership, modernize operations, and build transformation programs that create measurable results."
+        title="Selected client success stories that connect strategy to measurable outcomes."
+        description="From healthcare growth and real estate engagement to consumer retail and technology innovation, our case studies show how DCS helps organizations create lasting business value."
         primaryCta={{ label: "Start a Conversation", href: "/contact" }}
       />
       <section className="bg-brand-canvas py-20 sm:py-24 lg:py-28">

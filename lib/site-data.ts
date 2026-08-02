@@ -85,10 +85,10 @@ export type OpenRole = {
 };
 
 export const company = {
-  name: "Dodong Consultancy Services",
+  name: "DCS | Management & Technology Consulting",
   shortName: "DCS",
   description:
-    "Dodong Consultancy Services helps businesses transform with artificial intelligence, software development, cloud services, and cybersecurity solutions.",
+    "Helping organizations achieve sustainable growth through strategy, technology & innovation.",
   siteUrl: "https://dodongconsulting.com",
   email: "dodongconsultancy@gmail.com",
   phone: "+91-7077981777",
@@ -137,32 +137,32 @@ export const primaryNav = [
 
 export const capabilities: Capability[] = [
   {
-    title: "Artificial Intelligence",
+    title: "Growth Consulting",
     description:
-      "Custom AI solutions spanning machine learning, natural language processing, predictive analytics, automation, and computer vision.",
+      "Business growth strategy, customer acquisition, brand positioning, digital marketing, performance marketing, SEO, social media growth, and lead generation.",
     icon: Bot,
-    href: "/services#artificial-intelligence",
+    href: "/services#growth-consulting",
   },
   {
-    title: "Software Development",
+    title: "Technology Engineering",
     description:
-      "End-to-end software delivery across custom applications, web platforms, mobile apps, enterprise systems, and UI/UX design.",
+      "Website development, mobile app development, enterprise applications, SaaS platforms, custom software, product engineering, and API integrations.",
     icon: Blocks,
-    href: "/services#software-development",
+    href: "/services#technology-engineering",
   },
   {
-    title: "Cloud Services",
+    title: "Artificial Intelligence & Automation",
     description:
-      "Cloud migration, cloud-native development, hybrid and multi-cloud architecture, disaster recovery, and environment optimization.",
+      "AI agents, AI consulting, business automation, workflow automation, CRM automation, WhatsApp automation, and intelligent chatbots.",
     icon: Network,
-    href: "/services#cloud-services",
+    href: "/services#artificial-intelligence-automation",
   },
   {
-    title: "Cybersecurity",
+    title: "Cloud & Cyber Security",
     description:
-      "Multi-layered security services covering networks, endpoints, SIEM, IAM, encryption, incident response, and compliance support.",
+      "Cloud infrastructure, cloud migration, infrastructure modernization, cyber security assessments, security monitoring, backup & disaster recovery, and technology risk management.",
     icon: ShieldCheck,
-    href: "/services#cybersecurity",
+    href: "/services#cloud-cyber-security",
   },
 ];
 
@@ -366,27 +366,54 @@ export const caseStudies: CaseStudy[] = [
       "The client was better positioned to extend modernization efforts into broader utility performance and reporting programs.",
     ],
   },
+  {
+    slug: "technology-innovation-growth-platform",
+    title: "Technology & Innovation growth platform",
+    sector: "Technology & Innovation",
+    summary:
+      "DCS designed and implemented modern technology solutions that support business growth objectives across product, platform, and operating systems.",
+    image:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    outcomes: ["Faster launch cycles", "Better platform alignment", "Clearer delivery governance"],
+    metrics: [
+      { label: "Delivery speed", value: "2x" },
+      { label: "Platform ROI", value: "1.9x" },
+      { label: "Governance clarity", value: "+30%" },
+    ],
+    challenge:
+      "The client needed a stronger technology foundation that could support growth, product iteration, and practical execution without creating operational bottlenecks.",
+    approach: [
+      "Mapped product, infrastructure, and operating priorities into one delivery plan.",
+      "Improved platform and workflow alignment across technology, operations, and leadership stakeholders.",
+      "Introduced delivery metrics and governance to support longer-term scalability and resilience.",
+    ],
+    result: [
+      "The organization gained a more coherent digital operating model that improved execution consistency.",
+      "Technology investments became easier to prioritize because business and delivery goals were linked more directly.",
+      "The client moved from fragmented improvement work to a clearer, more scalable transformation roadmap.",
+    ],
+  },
 ];
 
 export const leaders: Leader[] = [
   {
-    name: "Rhea Santos",
-    role: "Director, Artificial Intelligence",
-    bio: "Rhea focuses on practical AI adoption, automation, and data-driven decision systems for growth-stage and enterprise clients.",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    name: "Caleb Morgan",
-    role: "Director, Software Engineering",
-    bio: "Caleb leads cross-functional software delivery spanning platforms, applications, and product execution.",
+    name: "Abhinash Patra",
+    role: "Founder & Managing Director",
+    bio: "Modern organizations require more than isolated solutions. They need strategic clarity, modern technology, and disciplined execution. Our mission is to help businesses navigate growth, transformation, and innovation with confidence while building systems that create lasting value.",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
   },
   {
-    name: "Aisha Valdez",
-    role: "Director, Cloud & Security",
-    bio: "Aisha works across cloud modernization, operational resilience, and cybersecurity architecture.",
+    name: "DCS Advisory Team",
+    role: "Growth Strategy & Transformation",
+    bio: "Our advisory team works across business planning, opportunity mapping, and stakeholder alignment to make strategic initiatives practical and execution-ready.",
+    image:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+  },
+  {
+    name: "Delivery Leadership",
+    role: "Engineering, AI & Security",
+    bio: "Our delivery leaders align product, cloud, AI, and security work to produce scalable platforms that support modern operating models.",
     image:
       "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=900&q=80",
   },
@@ -413,6 +440,97 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
+export const clientLogos = [
+  {
+    name: "Shanti Memorial Hospital",
+    src: "/Client%20Logos/shanti%20memorial.png",
+  },
+  {
+    name: "Saansud Infra",
+    src: "/Client%20Logos/Saansud%20Logo.png",
+  },
+  {
+    name: "Rajwara",
+    src: "/Client%20Logos/Rajwara.png",
+  },
+  {
+    name: "Roasted Kart",
+    src: "/Client%20Logos/Roasted%20Kart%20Logo.png",
+  },
+];
+
+export const approachSteps = [
+  {
+    title: "Strategy",
+    description: "Understanding business goals, market dynamics and growth opportunities.",
+  },
+  {
+    title: "Technology",
+    description: "Designing systems, platforms and infrastructure that support long-term success.",
+  },
+  {
+    title: "Execution",
+    description: "Implementing solutions with precision, accountability and measurable outcomes.",
+  },
+  {
+    title: "Continuous Improvement",
+    description: "Optimizing performance, customer experience and business processes to create sustainable competitive advantage.",
+  },
+];
+
+export const whyChooseItems = [
+  {
+    title: "Business-First Thinking",
+    description: "Every engagement begins with understanding business objectives before recommending solutions.",
+  },
+  {
+    title: "Strategy & Execution",
+    description: "We combine consulting, technology and implementation under one roof.",
+  },
+  {
+    title: "Multi-Disciplinary Expertise",
+    description: "Growth, software, AI, cloud and digital capabilities integrated into a single partner.",
+  },
+  {
+    title: "Long-Term Partnership Mindset",
+    description: "We focus on creating sustainable value rather than short-term activity.",
+  },
+  {
+    title: "Outcome-Oriented Approach",
+    description: "Every initiative is aligned with measurable business objectives.",
+  },
+];
+
+export const successStoryHighlights = [
+  {
+    title: "Healthcare Growth",
+    description: "Supporting healthcare organizations with patient acquisition, brand visibility and digital growth initiatives.",
+  },
+  {
+    title: "Real Estate & Infrastructure",
+    description: "Helping developers and infrastructure companies strengthen market presence and customer engagement.",
+  },
+  {
+    title: "Consumer & Retail Brands",
+    description: "Building stronger digital ecosystems that improve visibility, customer experience and growth.",
+  },
+  {
+    title: "Technology & Innovation",
+    description: "Designing and implementing modern technology solutions that support business objectives.",
+  },
+];
+
+export const industryImpactHighlights = [
+  "Healthcare & Hospitals",
+  "Real Estate & Construction",
+  "Manufacturing & Industrial",
+  "Hospitality & Tourism",
+  "Education & Training",
+  "Professional Services",
+  "Retail & Consumer Brands",
+  "Startups & Emerging Businesses",
+];
+
 export const processSteps: ProcessStep[] = [
   {
     title: "Consult",
@@ -437,10 +555,38 @@ export const processSteps: ProcessStep[] = [
 ];
 
 export const impactStats = [
-  { label: "Core service lines", value: 4 },
-  { label: "Industry solution tracks", value: 11 },
-  { label: "Client value themes highlighted", value: 5 },
-  { label: "Priority markets referenced", value: 2 },
+  { label: "Businesses served across multiple industries", value: 20 },
+  { label: "Technology & growth initiatives delivered", value: 50 },
+  { label: "Clients across India & international markets", value: 30 },
+  { label: "Customer acquisition, technology & transformation expertise", value: 5 },
+];
+
+export const businessOutcomes = [
+  {
+    title: "Accelerated Growth",
+    description:
+      "Helping businesses strengthen market positioning, improve customer acquisition and unlock new growth opportunities.",
+  },
+  {
+    title: "Digital Transformation",
+    description:
+      "Modernizing systems, platforms and processes that support long-term business objectives.",
+  },
+  {
+    title: "Operational Excellence",
+    description:
+      "Reducing inefficiencies, improving productivity and creating scalable business operations.",
+  },
+  {
+    title: "Intelligent Automation",
+    description:
+      "Leveraging AI and automation to improve decision-making and organizational performance.",
+  },
+  {
+    title: "Technology Leadership",
+    description:
+      "Building modern digital infrastructure that enables innovation, resilience and long-term growth.",
+  },
 ];
 
 export const principles = [
@@ -464,11 +610,11 @@ export const principles = [
 export const officeLocations = [
   {
     city: "Singapore Headquarters",
-    address: "160 Robinson Road, #14-04 Singapore Business Federation Center, Singapore (068914)",
+    address: "160 Robinson Road, #14-04, Singapore 068914",
   },
   {
     city: "India Regional Office",
-    address: "A/10, Ashok Nagar Bhubaneswar, Odisha 751009, India",
+    address: "A/10, Ashok Nagar, Bhubaneswar, Odisha 751009",
   },
 ];
 

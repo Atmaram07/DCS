@@ -166,7 +166,7 @@ export function ContactForm() {
           disabled={state.status === "submitting"}
           className="inline-flex items-center justify-center rounded-full bg-brand-primary px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-secondary disabled:cursor-not-allowed disabled:opacity-70"
         >
-          {state.status === "submitting" ? "Sending..." : "Request a Discovery Call"}
+          {state.status === "submitting" ? "Sending..." : "Schedule a Strategic Consultation"}
         </button>
         {state.message ? (
           <p className={`text-sm ${state.status === "success" ? "text-emerald-600" : "text-rose-600"}`}>{state.message}</p>

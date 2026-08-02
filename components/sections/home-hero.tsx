@@ -34,25 +34,31 @@ export function HomeHero() {
           transition={{ duration: 0.7 }}
           className="border-b border-slate-200 pb-10"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.32em] text-brand-primary">Dodong Consultancy Services</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.32em] text-brand-primary">DCS | Management &amp; Technology Consulting</p>
           <div className="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-end">
             <div>
               <h1 className="max-w-5xl font-heading text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-7xl">
-                Help your business move faster with technology that drives growth, resilience, and trust.
+                Helping Organizations Achieve Sustainable Growth Through Strategy, Technology &amp; Innovation
               </h1>
               <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-                DCS partners with ambitious organizations to modernize operations, improve customer experience, and deliver secure digital systems that scale with real business goals.
+                We partner with ambitious organizations to solve growth, technology, and transformation challenges through consulting, engineering, artificial intelligence, and execution.
+              </p>
+              <p className="mt-4 max-w-3xl text-base leading-8 text-slate-600">
+                From customer acquisition and digital growth to software engineering, cloud infrastructure, AI automation, and cyber security, DCS helps organizations build sustainable competitive advantage in an increasingly digital world.
               </p>
             </div>
             <div className="space-y-5 border-l border-slate-200 pl-0 lg:pl-8">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">Current focus</p>
                 <p className="mt-3 font-heading text-2xl font-semibold text-slate-950">
-                  AI adoption, software delivery, cloud modernization, and cyber resilience for high-stakes operations.
+                  Growth strategy, technology enablement, AI automation, and secure execution for ambitious organizations.
                 </p>
               </div>
               <ButtonLink href="/contact" variant="secondary">
-                Book a Discovery Call
+                Schedule a Strategic Consultation
+              </ButtonLink>
+              <ButtonLink href="https://wa.me/917077981777" target="_blank" rel="noreferrer">
+                WhatsApp Us
               </ButtonLink>
             </div>
           </div>

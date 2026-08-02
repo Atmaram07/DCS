@@ -5,6 +5,7 @@ import { FeaturedInsights } from "@/components/sections/featured-insights";
 import { HomeCareersSection } from "@/components/sections/home-careers-section";
 import { HomeHelpClients } from "@/components/sections/home-help-clients";
 import { HomeHero } from "@/components/sections/home-hero";
+import { HomepageStorySections } from "@/components/sections/homepage-story-sections";
 import { ImpactSection } from "@/components/sections/impact-section";
 import { IndustriesGrid } from "@/components/sections/industries-grid";
 
@@ -15,6 +16,7 @@ export default function HomePage() {
       <FeaturedInsights />
       <HomeHelpClients />
       <CapabilitiesGrid />
+      <HomepageStorySections />
       <CaseStudiesSection />
       <IndustriesGrid />
       <HomeCareersSection />
