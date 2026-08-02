@@ -85,7 +85,7 @@ export type OpenRole = {
 };
 
 export const company = {
-  name: "DCS | Management & Technology Consulting",
+  name: "Dodong Consultancy Services",
   shortName: "DCS",
   description:
     "Helping organizations achieve sustainable growth through strategy, technology & innovation.",
