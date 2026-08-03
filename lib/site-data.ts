@@ -26,6 +26,7 @@ export type Capability = {
   description: string;
   icon: LucideIcon;
   href: string;
+  deliveryNote: string;
 };
 
 export type Industry = {
@@ -90,7 +91,7 @@ export const company = {
   description:
     "Helping organizations achieve sustainable growth through strategy, technology & innovation.",
   siteUrl: "https://dodongconsulting.com",
-  email: "dodongconsultancy@gmail.com",
+  email: "growth@dodongconsulting.com",
   phone: "+91-7077981777",
 };
 
@@ -142,6 +143,8 @@ export const capabilities: Capability[] = [
       "Business growth strategy, customer acquisition, brand positioning, digital marketing, performance marketing, SEO, social media growth, and lead generation.",
     icon: Bot,
     href: "/services#growth-consulting",
+    deliveryNote:
+      "Our growth consulting connects market positioning, demand generation, and channel execution so revenue teams can move from intent to conversion with tighter focus.",
   },
   {
     title: "Technology Engineering",
@@ -149,6 +152,8 @@ export const capabilities: Capability[] = [
       "Website development, mobile app development, enterprise applications, SaaS platforms, custom software, product engineering, and API integrations.",
     icon: Blocks,
     href: "/services#technology-engineering",
+    deliveryNote:
+      "Our engineering model blends product thinking, software delivery, and operational rigor so each build can ship faster, scale reliably, and stay aligned to business needs.",
   },
   {
     title: "Artificial Intelligence & Automation",
@@ -156,6 +161,8 @@ export const capabilities: Capability[] = [
       "AI agents, AI consulting, business automation, workflow automation, CRM automation, WhatsApp automation, and intelligent chatbots.",
     icon: Network,
     href: "/services#artificial-intelligence-automation",
+    deliveryNote:
+      "Our AI and automation work turns manual workflows into systemized operations, helping teams reduce friction, improve decision cycles, and expand service capacity without adding complexity.",
   },
   {
     title: "Cloud & Cyber Security",
@@ -163,6 +170,8 @@ export const capabilities: Capability[] = [
       "Cloud infrastructure, cloud migration, infrastructure modernization, cyber security assessments, security monitoring, backup & disaster recovery, and technology risk management.",
     icon: ShieldCheck,
     href: "/services#cloud-cyber-security",
+    deliveryNote:
+      "Our cloud and security engagements combine architecture, resilience, and governance so platforms remain secure, adaptable, and ready for long-term growth.",
   },
 ];
 
@@ -243,7 +252,7 @@ export const insights: Insight[] = [
     readTime: "5 min read",
     publishedAt: "June 12, 2026",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80",
     body: [
       "Winning D2C operators do not treat acquisition, conversion, and retention as separate channels. They connect creative, data, and lifecycle systems so each stage of the funnel learns from the others.",
       "As paid media becomes less forgiving, brands that rely only on higher spend lose ground. Stronger operators reduce waste by tightening audience feedback loops, improving on-site conversion, and using automation to grow customer lifetime value.",
@@ -400,22 +409,7 @@ export const leaders: Leader[] = [
     name: "Abhinash Patra",
     role: "Founder & Managing Director",
     bio: "Modern organizations require more than isolated solutions. They need strategic clarity, modern technology, and disciplined execution. Our mission is to help businesses navigate growth, transformation, and innovation with confidence while building systems that create lasting value.",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    name: "DCS Advisory Team",
-    role: "Growth Strategy & Transformation",
-    bio: "Our advisory team works across business planning, opportunity mapping, and stakeholder alignment to make strategic initiatives practical and execution-ready.",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    name: "Delivery Leadership",
-    role: "Engineering, AI & Security",
-    bio: "Our delivery leaders align product, cloud, AI, and security work to produce scalable platforms that support modern operating models.",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=900&q=80",
+    image: "/Abhinash Patra.jpeg",
   },
 ];
 

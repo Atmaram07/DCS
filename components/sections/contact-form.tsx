@@ -45,7 +45,6 @@ export function ContactForm() {
         `Email: ${String(payload.email || "").trim()}`,
         `Phone: ${String(payload.phone || "").trim()}`,
         `Topic: ${String(payload.topic || "").trim()}`,
-        `Budget range: ${String(payload.budget || "").trim()}`,
         `Timeline: ${String(payload.timeline || "").trim()}`,
         `Request: ${String(payload.message || "").trim()}`,
       ].join("\n");
@@ -109,28 +108,12 @@ export function ContactForm() {
             <option value="" disabled>
               Select a topic
             </option>
+            <option value="growth-consulting">Growth Consulting</option>
             <option value="ai">Artificial Intelligence</option>
             <option value="software-development">Software Development</option>
             <option value="cloud-services">Cloud Services</option>
             <option value="cybersecurity">Cybersecurity</option>
             <option value="industry-solution">Industry Solution</option>
-          </select>
-        </label>
-        <label className="block">
-          <span className="mb-2 block text-sm font-medium text-slate-700">Budget Range</span>
-          <select
-            required
-            name="budget"
-            className="w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm outline-none transition focus:border-brand-primary"
-            defaultValue=""
-          >
-            <option value="" disabled>
-              Select budget range
-            </option>
-            <option value="under-10k">Under $10k</option>
-            <option value="10k-50k">$10k - $50k</option>
-            <option value="50k-100k">$50k - $100k</option>
-            <option value="100k-plus">$100k+</option>
           </select>
         </label>
         <label className="block sm:col-span-2">
@@ -166,7 +149,7 @@ export function ContactForm() {
           disabled={state.status === "submitting"}
           className="inline-flex items-center justify-center rounded-full bg-brand-primary px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-secondary disabled:cursor-not-allowed disabled:opacity-70"
         >
-          {state.status === "submitting" ? "Sending..." : "Schedule a Strategic Consultation"}
+          {state.status === "submitting" ? "Sending..." : "Schedule a WhatsApp Strategic Consultation"}
         </button>
         {state.message ? (
           <p className={`text-sm ${state.status === "success" ? "text-emerald-600" : "text-rose-600"}`}>{state.message}</p>

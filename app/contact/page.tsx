@@ -14,9 +14,9 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Strategic Consultation"
+        eyebrow="Strategic Consultation via WhatsApp"
         title="Every engagement begins with understanding the business."
-        description="During the consultation, we discuss business goals, growth opportunities, customer acquisition challenges, technology roadmap, operational efficiency, and digital transformation priorities."
+        description="During the consultation, we discuss business goals, growth opportunities, customer acquisition challenges, technology roadmap, operational efficiency, and digital transformation priorities through WhatsApp."
       />
       <section className="bg-brand-canvas py-20 sm:py-24 lg:py-28">
         <Container className="max-w-5xl">

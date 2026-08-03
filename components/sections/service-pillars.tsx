@@ -23,7 +23,7 @@ export function ServicePillars() {
                   <p className="mt-4 max-w-3xl text-base leading-8 text-slate-600">{capability.description}</p>
                 </div>
                 <div className="rounded-[28px] bg-white p-6 text-sm leading-7 text-slate-600">
-                  Our delivery model combines consulting, implementation, and ongoing support so each solution can move from concept to production with less friction.
+                  {capability.deliveryNote}
                 </div>
               </div>
             </Reveal>

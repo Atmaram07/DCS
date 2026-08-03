@@ -18,7 +18,9 @@ export function CtaBanner() {
                   If your leadership team is navigating transformation, growth, modernization, or operating pressure, we can help define the right path forward with practical delivery in mind.
                 </p>
               </div>
-              <ButtonLink href="/contact">Book a Discovery Call</ButtonLink>
+              <ButtonLink href="https://wa.me/917077981777" target="_blank" rel="noreferrer">
+                Chat on WhatsApp
+              </ButtonLink>
             </div>
           </div>
         </Reveal>

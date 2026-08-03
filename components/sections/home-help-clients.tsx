@@ -37,19 +37,18 @@ export function HomeHelpClients() {
       />
       <Container>
         <div className="rounded-[32px] border border-slate-200 bg-slate-50 p-6 sm:p-8">
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {clientLogos.map((logo, index) => (
               <Reveal key={logo.name} delay={index * 0.04}>
-                <div className="flex h-40 flex-col items-center justify-center gap-3 rounded-[24px] border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-4 transition duration-300 hover:-translate-y-0.5 hover:border-brand-primary/40 hover:shadow-sm">
+                <div className="flex h-52 flex-col items-center justify-center gap-3 rounded-[24px] border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-5 transition duration-300 hover:-translate-y-0.5 hover:border-brand-primary/40 hover:shadow-sm">
                   <Image
                     src={logo.src}
                     alt={logo.name}
-                    width={220}
-                    height={108}
-                    className="h-16 w-full object-contain"
+                    width={320}
+                    height={160}
+                    className="h-24 w-full object-contain"
                     unoptimized
                   />
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">{logo.name}</p>
                 </div>
               </Reveal>
             ))}

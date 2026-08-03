@@ -126,7 +126,7 @@ export function HomepageStorySections() {
             </Reveal>
             <Reveal delay={0.08}>
               <div className="rounded-[32px] border border-slate-200 bg-slate-50 p-8">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-primary">Strategic Consultation</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-primary">Strategic Consultation via WhatsApp</p>
                 <p className="mt-4 text-base leading-8 text-slate-700">
                   Every engagement begins with understanding the business. During the consultation, we discuss business goals, growth opportunities, customer acquisition challenges, technology roadmap, operational efficiency, and digital transformation priorities.
                 </p>

@@ -55,7 +55,7 @@ export function HomeHero() {
                 </p>
               </div>
               <ButtonLink href="/contact" variant="secondary">
-                Schedule a Strategic Consultation
+                Schedule a WhatsApp Strategic Consultation
               </ButtonLink>
               <ButtonLink href="https://wa.me/917077981777" target="_blank" rel="noreferrer">
                 WhatsApp Us
@@ -107,7 +107,7 @@ export function HomeHero() {
               <ButtonLink href="/services" variant="secondary">
                 Explore Services
               </ButtonLink>
-              <ButtonLink href="/contact">Request a Discovery Call</ButtonLink>
+              <ButtonLink href="/contact">Request a WhatsApp Discovery Call</ButtonLink>
             </div>
           </motion.div>
         </div>
